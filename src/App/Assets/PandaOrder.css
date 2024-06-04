@@ -1,0 +1,95 @@
+p{
+    padding: unset;
+    margin: unset;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.body{
+    margin: 100px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NotificationCard{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(205 209 216);
+}
+
+.NotificationCard  .Icon {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    min-width: 50px;
+}
+
+.OrderCard{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    min-width: 300px;
+    border: 1px solid rgb(205 209 216);
+}
+
+.OrderItemContainer{
+ display: flex;
+ flex-direction: column;
+ gap: 5px
+}
+
+.orderItem{
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.ItemName{
+    font-weight: 600;
+    white-space: nowrap;
+    width: 220px;
+}
+
+.ItemQuantity{
+    border: 1px solid rgb(205 209 216);
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.quantityButtonContainer{
+    display: flex;
+    gap: 5px;
+}
+
+.quantityButton{
+    padding: 2px 4px;
+    background-color: rgb(205 209 216);
+    min-width: 30px;
+    border-radius: 5px;
+}
+
+.placeOrderButton{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
